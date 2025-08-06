@@ -89,7 +89,7 @@
         feedback: document.getElementById("feedback").value,
         recaptcha: recaptchaResponse
       };
-      fetch("YOUR_GOOGLE_SCRIPT_WEBAPP_URL", {
+      fetch("https://script.google.com/macros/s/AKfycby0c8aM9A8EWtHaKvZVLgwoOeY8NXTNildx6Sa6-5wzmEbjX1xV1ucButXB5711dN4rkA/exec", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
